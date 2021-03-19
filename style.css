@@ -1,0 +1,43 @@
+.bio 
+/* for class */
+{
+    color: blue;
+    background-color:white;
+}
+
+/* for id */
+#a
+{
+    color: blue;
+    
+}
+
+
+li>a
+/* Child styling */
+{
+    color:red;
+    background-color: blueviolet;
+}
+
+p>b 
+/* P ka child hai srf usparline:26 html */
+{
+    color: blue;
+    background-color: brown;
+}
+
+p i 
+/* Grand child of p line no 29 */
+{
+    color: aquamarine;
+    background-color: yellow;
+}
+
+
+h1~p 
+/* Sibling all child css style in one DIV (h1 ky siblings jo div ky andar hain) */
+{
+    color: yellowgreen;
+    background-color: yellow;
+}
